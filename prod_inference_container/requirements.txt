@@ -1,0 +1,6 @@
+pandas
+nltk
+scikit-learn==0.24.2
+s3fs
+boto3
+python-dotenv

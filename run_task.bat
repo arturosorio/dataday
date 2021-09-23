@@ -1,0 +1,1 @@
+docker run --rm -it -e AWS_ACCESS_KEY_ID=access_key -e AWS_SECRET_ACCESS_KEY=secret_access_key -e AWS_DEFAULT_REGION=us-east-1 -e PROCESO=Predecir -e FILE=s3://{ruta} inference_container:latest 
